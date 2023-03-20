@@ -9,5 +9,10 @@ public class ApartmentHouse extends House{
     this.numberOfTrips = numberOfTrips;
   }
 
+  //В методе toString() выводите в удобном виде всю известную информацию о доме.
 
+  @Override
+  public String toString() {
+    return "Многоквартирный дом по адресу " + address + "из" + numberOfTrips + "подъездов";
+  }
 }
