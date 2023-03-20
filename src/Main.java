@@ -18,5 +18,12 @@ public class Main {
     House house3 = new ApartmentHouse("Марс", 7);
     houses.add(house3);
 
+    //Выведите информацию о домах в списке с использованием цикла for-each.
+
+    System.out.println("В списке домов лежат:");
+    for (House house : houses) {
+      System.out.println("- " + house);
+    }
+
   }
 }
